@@ -5,9 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/index.css" />
-        <title>JS starter</title>
+        <title>Quote-Generator</title>
     </head>
     <body>
+        <div class="container">
+            <h1>📜 Quote of the Day</h1>
+            <input type="text" id="searchInput" placeholder="Search for a topic...">
+            <button id="searchBtn">🔍 Search</button>
+            <p id="quote" class="fade-in">Click the button to get a new quote...</p>
+            <h3 id="author">-</h3>
+
+            <div class="buttons">
+                <button id="new-quote">🔄 New Quote</button>
+                <button id="copy-quote">📋 Copy</button>
+                <button id="tweet-quote">🐦 Tweet</button>
+                <button id="save-quote">⭐ Save Quote</button>
+                <button id="view-saved">📖 View Favorites</button>
+                <button id="toggle-mode">🌙 Night Mode</button>
+                <button id="change-font">🖋 Change Font</button>
+                <button id="share-whatsapp">📲 Share on WhatsApp</button>
+            </div>
+        </div>
+
         <script src="./src/index.js"></script>
     </body>
 </html>
